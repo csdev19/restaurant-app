@@ -1,0 +1,22 @@
+.progress-container {
+  position: relative;
+}
+
+.progress-image {
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.progress-percent {
+  position: absolute;
+  top: 50px;
+  left: 115px;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.circle {
+  transition: all 0.7s ease-in-out;
+}

@@ -1,0 +1,36 @@
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+/* Firefox */
+*::-moz-selection {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.theme-light {
+  --background-color: #fff;
+  --font-color: #0000;
+}
+
+.theme-dark {
+  --background-color: #0e141b;
+  --font-color: #fff;
+}

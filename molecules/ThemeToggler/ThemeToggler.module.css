@@ -1,0 +1,32 @@
+.sunLight {
+  background: #F6AE13;
+  box-shadow: 0 0 30px #F6AE13;
+  display: flex;
+  color: white;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.moonDark {
+  background: #6d28d9;
+  box-shadow: 0 0 30px #6d28d9;
+  display: flex;
+  color: white;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #6d28d9;
+}
+
+input:checked ~ .containerDot {
+  background: white;
+}
+

@@ -1,0 +1,10 @@
+.contact > b {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4px 6px;
+  font-size: 3rem;
+}
+
+.contact > div {
+  padding-bottom: 1rem;
+}

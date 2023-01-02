@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --primary-color: #E91E63;
+  --secondary-color: #FF9C00;
+  --tertiary-color: #157FFF;
+  --quaternary-color: #97FF00;
+  --white-color: #F2F2F7;
+  --black-color: #001226;
+  /* fonts */
+  --text-color: black;
+  --font-regular: 'inter';
+  --font-bold: 'interbold';
+}
